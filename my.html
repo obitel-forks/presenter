@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 
-		<title>Bitcoin Wallet by Coinb.in</title>
+		<title>Страница с кабинетом</title>
 
         	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 		<meta name="keywords" content="bitcoin, wallet, multisig, multisignature, address, browser, javascript, js, broadcast, transaction, verify, decode" />
@@ -504,7 +504,9 @@
 										<div class="col-md-12">
 											<p><span style="float:right;"><a href="javascript:;" id="walletLogout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></span>
 												<ul class="nav nav-pills" role="tablist">
-													<li role="presentation" class="active"><a href="javascript:;" id="walletBalance">0.00 BTC</a></li>
+													<li role="presentation" class="active"><a href="javascript:;" id="walletBalance">0.00</a></li>
+																									<span id="walletLoader" class="hidden"><img src="images/loader.gif"></span>						
+
 													<li role="presentation"><a href="javascript:;" id="walletShowKeys">Keys</a></li>
 												</ul>
 
@@ -513,11 +515,11 @@
 										<div class="col-md-12" align="center">
 											<div id="walletQrCode"></div> <br>
 											<div>
-												<span id="walletLoader" class="hidden"><img src="images/loader.gif"></span>						
-												<span id="Scan"><img src="/img/i/scan.jpg"></span>
 
 												<span id="walletAddress"></span>
 											</div>
+																							<span id="Scan"><img src="/img/i/scan.jpg"></span>
+
 											<br>
 											<div style="text-align:center; width:350px;">
 

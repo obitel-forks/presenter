@@ -43,7 +43,32 @@ Organization of the testing process;
 
 3. ABX Innovation: To date, there are no medical services to combat cancer using artificial intelligence and blockchain. Blockchain acts as a means of identifying users of the service and provides increased security and safety of data.
 
-4. List of Technologies: NEED TO ADDITION
+4. List of Technologies: 
+
+Front
+- "In browser" Key (re)generation. 
+- Send and receive payments.
+- Ability to decode transactions, redeem scripts and more offline.
+- Build custom transactions offline.
+- Sign transactions offline.
+- Signatures are deterministic as per RFC 6979 (https://tools.ietf.org/html/rfc6979#section-3.2)
+- Broadcast transactions.
+- nLockTime support.
+- Add custom data to transactions with the use of OP_RETURN.
+- Support current Dark Wallet Stealth Address structure (as of version Alpha 7) for outputs.
+- Brain wallet support.
+- Compatible with bitcoin-qt
+- An offical .onion address for tor users.
+- Offline qrcode creator and scanning tool
+- HD (bip32) support
+- Supports altcoins such as litecoin
+- Replace by fee (RBF) Support
+
+Back:
+php (opcache), nodejs
+
+нужно убрать ненужные (не кошельковые) пункты?
+
 
 5. Complexity in the development: selection of block solutions for use in the project.
 

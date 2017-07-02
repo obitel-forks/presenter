@@ -46,3 +46,6 @@ Organization of the testing process;
 4. List of Technologies: NEED TO ADDITION
 
 5. Complexity in the development: selection of block solutions for use in the project.
+
+
+ http://abx.testin.ru

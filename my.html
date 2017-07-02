@@ -502,21 +502,25 @@
 								<div id="openWallet" class="hidden">
 									<div class="row">
 										<div class="col-md-12">
-											<p><span style="float:right;"><a href="javascript:;" id="walletLogout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></span>
+											<p><span style="float:right;"><a href="javascript:;" id="walletLogout"><span class="glyphicon glyphicon-log-out"></span> Выход</a></span>
 												<ul class="nav nav-pills" role="tablist">
-													<li role="presentation" class="active"><a href="javascript:;" id="walletBalance">0.00</a></li>
-																									<span id="walletLoader" class="hidden"><img src="images/loader.gif"></span>						
+													<li role="presentation" class="active"><a href="javascript:;" id="walletBalance">0.00</a></l>
+													<li role="presentation"><a id="walletHistory" href="javascript:;" target="_blank">Ссылка на блокчейн эксплорер</a></li>
 
-													<li role="presentation"><a href="javascript:;" id="walletShowKeys">Keys</a></li>
+
+													<span id="walletLoader" class="hidden"><img src="images/loader.gif"></span>						
+
+													<li role="presentation"><a href="javascript:;" id="walletShowKeys">Ключи</a></li>
 												</ul>
 
 											</p>
 										</div>											
 										<div class="col-md-12" align="center">
-											<div id="walletQrCode"><img src="/img/i/scan.jpg" width="300px"></div><br>
+											<div id="walletQrCode"></div><br>
+											Сканируем QR каким-нибудь мобильным кошельком
 
 											<div>
-
+												<img src="/img/i/scan.jpg" width="300px">
 												<span id="walletAddress"></span>
 											</div>
 

@@ -65,10 +65,7 @@ Front
 - Replace by fee (RBF) Support
 
 Back:
-php (opcache), nodejs
-
-нужно убрать ненужные (не кошельковые) пункты?
-
+php (opcache), nodejs, nginx, dotenv, git, 
 
 5. Complexity in the development: selection of block solutions for use in the project.
 
